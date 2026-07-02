@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://margheritacastellano.github.io/al-folio/sitemap.xml
+Sitemap: https://margheritacastellano.github.io/sitemap.xml
