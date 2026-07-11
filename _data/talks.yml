@@ -1,0 +1,60 @@
+# Conference talks, posters, and slides.
+# Drop PDF files into assets/pdf/talks/ and set the `slides`/`poster` path below
+# to have a download button appear automatically on the talks page.
+list:
+  - conference: CANUM26 numerical analysis congress
+    type: Presentation
+    date: 2026-06
+    location: Saint-Jacut-de-la-Mer, France
+    slides: # e.g. /assets/pdf/talks/canum26-slides.pdf
+
+  - conference: PDEs' day
+    type: Poster
+    date: 2025-06
+    location:
+    poster: # e.g. /assets/pdf/talks/pdes-day-poster.pdf
+
+  - conference: SMAI25 congress of industrial and applied mathematics
+    type: Presentation
+    date: 2025-06
+    location: Carcans-Maubuisson, France
+    slides:
+
+  - conference: CJC en mathématiques appliquées
+    type: Presentation
+    date: 2024-10
+    location: ENS de Lyon, France
+    slides:
+
+  - conference: NAPDE conference (New trends in Numerical Analysis of PDEs)
+    type: Poster
+    date: 2024-06
+    location: Villeneuve d'Ascq, France
+    poster:
+
+  - conference: CANUM numerical analysis national congress
+    type: Presentation
+    date: 2024-05
+    location: Île de Ré, France
+    slides:
+
+  - conference: Fluid mechanics conference, Institut Henri Poincaré
+    type: Attendance
+    date: 2024-01
+    location: Paris, France
+
+  - conference: FVCA conference (Finite Volumes for Complex Applications)
+    type: Attendance
+    date: 2023-11
+    location: Strasbourg, France
+
+  - conference: Journées scientifiques 2023, GdR MaNu
+    type: Attendance
+    date: 2023-10
+    location: Le Croisic, France
+
+  - conference: Frontiers in Molecular Biology, SIBBM
+    type: Poster
+    date: 2021-06
+    location: Online
+    poster:

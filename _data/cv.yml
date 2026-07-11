@@ -1,189 +1,173 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Margherita Castellano
+  label: PhD Candidate in Applied Mathematics
+  email: margherita.castellano@polytechnique.edu
+  location: Palaiseau, France
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: PhD candidate in Applied Mathematics at École Polytechnique (Paris), working on numerical modeling and simulation of complex systems (PDEs). Interested in applying quantitative and analytical skills to real-world problems.
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  social_networks: []
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: CMAP, École Polytechnique
+    city: Palaiseau
+    region: Île-de-France
+    postalCode: "91120"
+    countryCode: FR
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Sorbonne University
+        location: Paris, France
+        area: Applied Mathematics (mathematical modeling)
+        studyType: Master's degree
+        start_date: 2021-09
+        end_date: 2023-09
+        courses: "Partial Differential Equations and Numerical Analysis (2nd year specialization)"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Trento
+        location: Trento, Italy
+        area: Mathematics for Life and Social Sciences
+        studyType: Master's degree (1st year)
+        start_date: 2020-11
+        end_date: 2021-07
+        score: "30/30"
+        courses: "Track: Modeling and Analysis of Biosystems"
+
+      - institution: University of California, Berkeley
+        location: Berkeley, California, US
+        area: Applied Mathematics (exchange program, 3rd year of bachelor's degree)
+        studyType: Exchange program
+        start_date: 2019-09
+        end_date: 2020-06
+        score: "16.405/20"
+
+      - institution: University of Bordeaux
+        location: Bordeaux, France
+        area: Applied Mathematics and Computer Science (IT and Mathematics applied to Social and Human Science - Economics track)
+        studyType: Bachelor's degree
+        start_date: 2017-09
+        end_date: 2020-07
+        score: "15.875/20, rank 4/97"
+
+      - institution: European School of Brussels
+        location: Brussels, Belgium
+        area: IT and Mathematics
+        studyType: European Baccalaureate
+        start_date: 2014
+        end_date: 2017-07
+        score: "81.69/100"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: CMAP, École Polytechnique
+        position: PhD candidate
+        location: Palaiseau, France
+        start_date: 2023-10
+        end_date: 2026-10
         highlights:
-          - Relativity
-          - Description 2.
+          - Mathematical modeling of multiphysics systems (Cahn-Hilliard-Navier-Stokes)
+          - Development of numerical methods and simulations (finite volume methods)
+          - Analysis of simulation results and model behavior
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: École Polytechnique
+        position: Teaching assistant
+        location: Palaiseau, France
+        start_date: 2023-10
+        end_date: 2026-01
+        summary: Teaching assistant for undergraduate and master's students.
         highlights:
-          - Description 1.
-          - Description 2.
+          - "2023-2025: Statistics with R - Master 1 students, X-HEC"
+          - "2024-2025: Preparatory training in applied mathematics - Bachelor 3 students, X"
+          - "2025: Introduction to numerical analysis - Bachelor 2 students, X"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: SEMES, La Rochelle
+        position: Participant, Mathematics for industry week
+        location: La Rochelle, France
+        start_date: 2025-11
+        end_date: 2025-11
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - One-week analysis of an industry-driven problem
+          - Modeling of the ocean propagation of CO2 particles
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: CMAP, École Polytechnique
+        position: Intern
+        location: Palaiseau, France
+        start_date: 2023-04
+        end_date: 2023-09
+        highlights:
+          - Finite volume discretization of the Cahn-Hilliard equation
+          - Python simulations and numerical analysis
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: INRIA Paris
+        position: Intern
+        location: Paris, France
+        start_date: 2022-06
+        end_date: 2022-07
+        highlights:
+          - PDE modeling of electrostatic effects in Micro-Electrode Arrays
+          - Numerical simulations and result analysis
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - company: ECIU Challenge, University of Twente
+        position: Participant
+        location: Twente, Netherlands
+        start_date: 2021-02
+        end_date: 2021-06
+        highlights:
+          - Worked on a project on predictive analysis in healthcare
+          - Explored how data-driven approaches can reduce costs and improve care quality
+          - Collaborated with an academic and industry team
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - company: University of Bordeaux
+        position: Academic tutor
+        location: Bordeaux, France
+        start_date: 2018-09
+        end_date: 2019-05
+        highlights:
+          - Revision classes for first-year Bachelor students
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Conferences:
+      - bullet: "CANUM26 numerical analysis congress — Presentation — June 2026, Saint-Jacut-de-la-Mer, France"
+      - bullet: "PDEs' day — Poster — June 2025"
+      - bullet: "SMAI25 congress of industrial and applied mathematics — Presentation — June 2025, Carcans-Maubuisson, France"
+      - bullet: "CJC en mathématiques appliquées — Presentation — October 2024, ENS de Lyon, France"
+      - bullet: "NAPDE conference (New trends in Numerical Analysis of PDEs) — Poster — June 2024, Villeneuve d'Ascq, France"
+      - bullet: "CANUM numerical analysis national congress — Presentation — May 2024, Île de Ré, France"
+      - bullet: "Fluid mechanics conference, Institut Henri Poincaré — January 2024, Paris, France"
+      - bullet: "FVCA conference (Finite Volumes for Complex Applications) — November 2023, Strasbourg, France"
+      - bullet: "Journées scientifiques 2023, GdR MaNu — October 2023, Le Croisic, France"
+      - bullet: "Frontiers in Molecular Biology, SIBBM — Poster — June 2021, online"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: National finalist, MT180 (Ma thèse en 180 secondes)
+        location: France
+        summary: Three-minute presentation of my PhD thesis to a general audience.
+        start_date: 2026-03
+        end_date: 2026-05
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Organizer of PhD seminars at CMAP
+        location: Palaiseau, France
+        start_date: 2023-10
+        end_date: 2026-07
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Skills:
+      - name: Python
+        level: Advanced
+        keywords: "Scientific computing, numerical simulations"
+
+      - name: R
+        level: Advanced
+        keywords: "Statistical analysis"
+
+      - name: FreeFem++
+        level: Intermediate
+        keywords: "PDE simulations"
+
+    Languages:
+      - name: Italian
+        summary: "Native speaker"
+
+      - name: French
+        summary: "Near native / fluent (C2 level)"
+
+      - name: English
+        summary: "Fluent (92/120 TOEFL iBT)"
