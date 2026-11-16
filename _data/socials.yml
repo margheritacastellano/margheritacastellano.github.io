@@ -4,7 +4,7 @@
 cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
 email: margherita.castellano@polytechnique.edu # your email address
 linkedin_username: margherita-castellano-0057401ab # your LinkedIn username
-rss_icon: true # comment this line to hide the RSS icon
+# rss_icon: true # comment this line to hide the RSS icon
 # orcid_id: # your ORCID iD, if you register for one (https://orcid.org/register) - a good fit once you have no GitHub/Scholar profile to share
 # github: # your GitHub username
 # scholar_userid: # your Google Scholar ID

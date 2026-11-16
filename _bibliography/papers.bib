@@ -6,6 +6,19 @@
 % (abbr, abstract, pdf, code, poster, slides, video, website, altmetric, dimensions,
 % google_scholar_id, hal, inspirehep_id, selected, etc.)
 
+@unpublished{castellano2026convergence,
+  title     = {Convergence analysis of a Discrete Duality Finite-Volume method for Cahn-Hilliard equations with surfactants},
+  author    = {Castellano, Margherita and Goudenège, Ludovic and Nabet, Flore},
+  note      = {Preprint},
+  year      = {2026},
+  month     = sep,
+  hal       = {hal-05747365},
+  pdf       = {https://hal.science/hal-05747365v1/file/Convergence.pdf},
+  preview   = {castellano2026convergence.jpg},
+  abstract  = {We propose a Discrete Duality Finite Volume (DDFV) scheme for a phase-field model of surfactant dynamics during the phase separation of a two-phase flow. The model couples two Cahn-Hilliard equations, for the phase-field variable and for the surfactant concentration. We discretize the model in space via the DDFV method, well-suited to general meshes and nonlinear diffusion, and in time via a semi-implicit Euler scheme. The discrete scheme and the corresponding numerical analysis rely on two dedicated operators discretizing the nonlinear term coupling the surfactant concentration and the phase-field gradient consistently across the primal, dual and diamond meshes. We first prove the existence of a discrete solution at each time step, via a topological degree argument. We then prove that, as the mesh size and time step tend to zero, the approximate solutions converge to a weak solution of the continuous problem. The existence of a solution to the continuous problem then follows as a consequence. To our knowledge, the finite volume analysis, the convergence of the scheme and the existence of a continuous solution are all new for this model. We finally report numerical simulations illustrating the interface-driven surfactant dynamics, including a benchmark showing the stabilization of the interfaces under high surfactant concentration.},
+  selected  = {true}
+}
+
 @inproceedings{castellano2025energy,
   title     = {Energy estimate of a Discrete Duality Finite Volume scheme for a phase-field model with surfactants},
   author    = {Castellano, Margherita and Goudenège, Ludovic and Nabet, Flore},
@@ -13,6 +26,7 @@
   year      = {2025},
   month     = jun,
   hal       = {hal-05473939},
+  preview   = {castellano2025energy.png},
   abstract  = {We develop a discrete energy estimate for a phase-field model describing a ternary mixture of two immiscible fluids (air and water) and surfactants, using the Discrete Duality Finite Volume method, which handles non-linear diffusive problems on general mesh configurations while preserving key properties of the continuous formulation.},
   selected  = {true}
 }

@@ -2,10 +2,31 @@
 layout: page
 title: Outreach
 permalink: /outreach/
-description: MT180, science and academic communication alongside my PhD.
+description: Symbiose, MT180, science and academic communication alongside my PhD.
 nav: true
 nav_order: 2
 ---
+
+## Symbiose — Pariscience short film competition {#symbiose}
+
+In October 2026 I took part in [**Symbiose**](https://pariscience.fr/symbiose/), the 48-hour short film competition organized by the [Pariscience](https://pariscience.fr/) science film festival. Each team pairs a scientist with a filmmaker, drawn by lot at the start of the competition, and has 48 hours to write, shoot and edit a short film together about the scientist's research. With Adélie Braud, I made _Au-dessus de l'eau_, which received the **Jury's Special Mention** of the 2026 edition.
+
+<div class="row row-cols-1 row-cols-md-2 mt-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title"><em>Au-dessus de l'eau</em></h5>
+        {% include video.liquid path="https://player.vimeo.com/video/1235029530" class="img-fluid rounded z-depth-1" %}
+        <p class="card-text mt-2 text-muted"><small>Directed by Adélie Braud and Margherita Castellano — <a href="https://pariscience.fr/symbiose-edition-2026/">all films of the 2026 edition</a></small></p>
+        <p class="card-text mt-2">
+          <span class="badge rounded-pill bg-warning text-dark">🏆 Jury's Special Mention</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
 
 ## MT180 — Ma thèse en 180 secondes {#mt180}
 
