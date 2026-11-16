@@ -11,16 +11,22 @@ nav_order: 2
 
 In October 2026 I took part in [**Symbiose**](https://pariscience.fr/symbiose/), the 48-hour short film competition organized by the [Pariscience](https://pariscience.fr/) science film festival. Each team pairs a scientist with a filmmaker, drawn by lot at the start of the competition, and has 48 hours to write, shoot and edit a short film together about the scientist's research. With Adélie Braud, I made _Au-dessus de l'eau_, which received the **Jury's Special Mention** of the 2026 edition.
 
-<div class="row row-cols-1 row-cols-md-2 mt-3">
-  <div class="col mb-4">
-    <div class="card h-100">
-      <div class="card-body">
-        <h5 class="card-title"><em>Au-dessus de l'eau</em></h5>
-        {% include video.liquid path="https://player.vimeo.com/video/1235029530" class="img-fluid rounded z-depth-1" %}
-        <p class="card-text mt-2 text-muted"><small>Directed by Adélie Braud and Margherita Castellano — <a href="https://pariscience.fr/symbiose-edition-2026/">all films of the 2026 edition</a></small></p>
-        <p class="card-text mt-2">
+<div class="card mt-3 mb-4">
+  <div class="card-body">
+    <h5 class="card-title"><em>Au-dessus de l'eau</em></h5>
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <iframe src="https://player.vimeo.com/video/1235029530" class="rounded z-depth-1" style="width: 100%; height: auto; aspect-ratio: 16 / 9;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen title="Au-dessus de l'eau — Symbiose 2026"></iframe>
+        <p class="card-text mt-2 mb-1 text-muted"><small>Directed by Adélie Braud and Margherita Castellano — <a href="https://pariscience.fr/symbiose-edition-2026/">all films of the 2026 edition</a></small></p>
+        <p class="card-text mb-0">
           <span class="badge rounded-pill bg-warning text-dark">🏆 Jury's Special Mention</span>
         </p>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div style="max-width: 85%; margin: 0 auto;">
+          {% include figure.liquid loading="lazy" path="assets/img/symbiose-2026.jpg" class="img-fluid rounded z-depth-1" alt="Margherita Castellano speaking with a microphone at the Symbiose 2026 event" %}
+          <p class="text-muted text-end mt-1 mb-0"><small>Photo © Stéphane Félicité</small></p>
+        </div>
       </div>
     </div>
   </div>
